@@ -61,3 +61,78 @@ section[epub|type="z3998:subchapter"] > header{
 	margin: 3em;
 }
 /* end subchapter headers */
+
+/* drama */
+table{
+	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
+}
+
+tr:first-child td{
+	padding-top: 0;
+}
+
+tr:last-child td{
+	padding-bottom: 0;
+}
+
+td{
+	padding: .5em;
+	vertical-align: top;
+}
+
+td:last-child{
+	padding-right: 0;
+}
+
+td:first-child{
+	padding-left: 0;
+}
+
+td[epub|type~="z3998:persona"]{
+	hyphens: none;
+	-epub-hyphens: none;
+	text-align: right;
+	width: 20%;
+}
+
+[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
+
+@media(max-width: 400px){
+	td,
+	td[epub|type~="z3998:persona"],
+	td:last-child{
+		display: block;
+		padding: 0;
+		text-align: initial;
+		width: 100%;
+	}
+
+	td[epub|type~="z3998:persona"]{
+		break-after: avoid;
+		margin-top: 1.5em;
+	}
+}
+/* end drama */
+
+/* footer */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+/* end footer */
+
+/* signature */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* end signature */
+
+/* unsorted list */
+ul{
+	list-style-type: none;
+}
+/* end unsorted list */
