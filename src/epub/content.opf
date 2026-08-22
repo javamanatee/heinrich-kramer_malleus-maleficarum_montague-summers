@@ -45,10 +45,11 @@
 			&lt;p&gt;This translation, published in 1928, has a lengthy introduction by Montague Summers, who seems to accept the claims at face value, even at such a modern date. He added copious footnotes that give some context to the ancient and medieval references. Included is the papal bull, and a bibliography of this book’s complicated publishing history.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
-		<!-- Sacred Texts -->
+		<!-- Sacred Texts transcription -->
 		<dc:source>https://sacred-texts.com/pag/mm/</dc:source>
-		<!-- Malleus Maleficorum site, now defunct and archived -->
+		<!-- Malleus Maleficorum transcription, site now defunct and archived -->
 		<dc:source>https://web.archive.org/web/20230521123827/http://www.malleusmaleficarum.org/table-of-contents/</dc:source>
+		<!-- Page scans -->
 		<dc:source>https://catalog.hathitrust.org/Record/000584799</dc:source>
 		<meta property="se:production-notes">The Sacred Texts transcription often had incomplete chapters, and no footnotes. The archived Malleus site was more complete with footnotes, filling in what was missing.</meta>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
