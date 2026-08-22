@@ -36,14 +36,14 @@
 		<meta property="term" refines="#subject-1">sh85147143</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85060383</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">This medieval work insists on the existence of witches, and instructs how they should be detected, tried, and condemned.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Spirituality</meta>
+		<meta property="schema:abstract">This medieval work insists on the existence of witches, and instructs how they should be detected, tried, and condemned.</meta>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Malleus Maleficarum&lt;/i&gt;, often translated as &lt;i&gt;The Hammer of Witches&lt;/i&gt;, is a treatise on witchcraft by &lt;a href="https://standardebooks.org/ebooks/heinrich-kramer"&gt;Heinrich Kramer&lt;/a&gt; and was published in 1486. At that time, witchcraft was not widely believed to be real, and prosecutions were rare. Many churchmen considered it to be a fairly harmless superstition and any actual punishment was light. Kramer responded with this manual on witch hunting. The first part of this work outlines why witchcraft is a real and persistent danger, citing philosphers and church fathers, from Aristotle to St. Augustine to St. Thomas Aquinas. The second part deals with the methods and effects of witchcraft, and how to counter those effects. The third part gives procedures for the accusation and trial of witches, how torture may be used to exact confessions, and finally how to pronounce and execute sentence against the guilty. The prose varies between the finer points of theology and canon law, and sensational descriptions of sexual liaisons with incubi and succubi.&lt;/p&gt;
 			&lt;p&gt;Kramer’s reasoning is extensively based on church canon law and Catholic theology, but his views were not shared by much of the church, and even faced opposition. He did however secure a papal bull from Innocent VIII which approved of his work. Kramer secured a “letter of approbation” from contemporary scholars who supposedly endorsed his work, though this is thought to be forged. While Kramer was an inquisitor and considered witchcraft to be a dangerous heresy, the Inquisition did not use &lt;i&gt;Malleus&lt;/i&gt; as a tool for prosecution. It was mostly left to secular courts, and in the 16th and 17th centuries the belief in witchcraft became more widespread in Europe, resulting in the execution of accused witches, often by burning at the stake. It is thought that &lt;i&gt;Malleus&lt;/i&gt; was a major contributor to witch hunting hysteria, which finally died down by the end of the 18th century.&lt;/p&gt;
 			&lt;p&gt;This translation, published in 1928, has a lengthy introduction by Montague Summers, who seems to accept the claims at face value, even at such a modern date. He added copious footnotes that give some context to the ancient and medieval references. Included is the papal bull, and a bibliography of this book’s complicated publishing history.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Sacred Texts -->
 		<dc:source>https://sacred-texts.com/pag/mm/</dc:source>
@@ -51,27 +51,27 @@
 		<dc:source>https://web.archive.org/web/20230521123827/http://www.malleusmaleficarum.org/table-of-contents/</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000584799</dc:source>
 		<meta property="se:production-notes">The Sacred Texts transcription often had incomplete chapters, and no footnotes. The archived Malleus site was more complete with footnotes, filling in what was missing.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Malleus_Maleficarum</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/heinrich-kramer_malleus-maleficarum_montague-summers</meta>
 		<dc:creator id="author">Heinrich Kramer</dc:creator>
 		<meta property="file-as" refines="#author">Kramer, Heinrich</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Heinrich_Kramer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n84805624</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n84805624.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Montague Summers</dc:contributor>
 		<meta property="file-as" refines="#translator">Summers, Montague</meta>
 		<meta property="se:name.person.full-name" refines="#translator">Augustus Montague Summers</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Montague_Summers</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50012865</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n50012865.html</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Edgar Bundy</dc:contributor>
 		<meta property="file-as" refines="#artist">Bundy, Edgar</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Edgar_Bundy</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr91000696</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr91000696.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
