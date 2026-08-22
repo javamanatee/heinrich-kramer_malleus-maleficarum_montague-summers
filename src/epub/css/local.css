@@ -136,3 +136,12 @@ ul{
 	list-style-type: none;
 }
 /* end unsorted list */
+
+/* Papal bull sender */
+[epub|type~="z3998:sender"]{
+	text-align: center;
+}
+
+[epub|type~="z3998:sender"] + p{
+	margin-top: 1em;
+}
