@@ -137,7 +137,7 @@ ul{
 }
 /* end unsorted list */
 
-/* Papal bull sender */
+/* papal bull sender */
 [epub|type~="z3998:sender"]{
 	text-align: center;
 }
@@ -145,3 +145,10 @@ ul{
 [epub|type~="z3998:sender"] + p{
 	margin-top: 1em;
 }
+/* end papal bull sender */
+
+/* special blockquote headers */
+blockquote > header + p{
+	margin-top: 1em;
+}
+/* end special blockquote headers */
