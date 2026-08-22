@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore code="t-019">
+			<line>537</line>
+			<reason>Italics are for title, not dialogue.</reason>
+		</ignore>
+		<ignore code="t-019">
+			<line>685</line>
+			<reason>Italics are for title, not dialogue.</reason>
+		</ignore>
+		<ignore code="t-073">
+			<line>423</line>
+			<reason>Dash is intentional to denote syllables.</reason>
+		</ignore>
+	</file>
+	<file path="introduction-1.xhtml">
+		<ignore code="y-031">
+			<line>76</line>
+			<reason>The quoted text is not dialog.</reason>
+		</ignore>
+	</file>
+	<file path="introduction-2.xhtml">
+		<ignore code="y-005">
+			<line>39</line>
+			<reason>The question mark is for the uncertain date, the period for end of sentence.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
