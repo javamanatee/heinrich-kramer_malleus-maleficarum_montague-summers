@@ -31,11 +31,14 @@
 		<meta property="file-as" refines="#title">Malleus Maleficarum</meta>
 		<meta property="dcterms:alternative" refines="#title">Hammer of Witches</meta>
 		<dc:subject id="subject-1">Witchcraft</dc:subject>
-		<dc:subject id="subject-2">Heresy</dc:subject>
+		<dc:subject id="subject-2">Witch hunting</dc:subject>
+		<dc:subject id="subject-3">Demonology</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85147143</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">sh85060383</meta>
+		<meta property="term" refines="#subject-2">sh2009000714</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85036663</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Spirituality</meta>
 		<meta property="schema:abstract">This medieval work insists on the existence of witches, and instructs how they should be detected, tried, and condemned.</meta>
