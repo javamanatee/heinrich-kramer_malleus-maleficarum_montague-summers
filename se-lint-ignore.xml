@@ -25,5 +25,9 @@
 			<line>39</line>
 			<reason>The question mark is for the uncertain date, the period for end of sentence.</reason>
 		</ignore>
+		<ignore code="s-045">
+			<line>11</line>
+			<reason>Incunabula are library classifications that do not fit normal semantics.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
